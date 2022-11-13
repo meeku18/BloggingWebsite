@@ -3,7 +3,37 @@
     <h1>Home</h1>
     <p> <%= startingContent %> </p>
 
+    <h1>Popular Blogs</h1>
+    <section class="colored-section" id="testimonials">
 
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text"> <a href="https://www.maxhealthcare.in/blogs/infertility-when-seek-medical-help">Infertility: When to Seek Medical Help?</h2>
+              <img a href="" class="testimonial-image" src="/public/images/Dr_Sowjanya_Aggarwal_e34ad5b6f2.jpg" alt="dog-profile">
+              <em>Dr. Sowjanya Aggarwal</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text"> <a class="anchor" href="" >Early Diagnosis of Breast Cancer can be Lifesaving – Awareness is the Best Policy!</h2>
+              <img class="testimonial-image" href="" src="/public/images/KANCHAN.jpg"  alt="lady-profile">
+              <em>Dr. Kanchan Kaur</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text" ><a class="anchor" href="https://www.medanta.org/patient-education-blog/early-diagnosis-of-breast-cancer-can-be-lifesaving-awareness-is-the-best-policy/" >4 Common Gynecologic Problems and Treatments
+              </h2>
+              <img class="testimonial-image" a class="anchor" href="https://riverview.org/blog/womens-health/4-common-gynecologic-problems-and-treatments/" src="/public/images/istockphoto-177373093-612x612.jpg"  alt="lady-profile">
+              <em>By Joseph E. Geyer, MD</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+    
+      </section>
   <%  posts.forEach(function(post){ %>
 
     <h1><%=post.title%></h1>
