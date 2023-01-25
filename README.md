@@ -2,8 +2,6 @@
 
 Revolutionarie Blogging Site For Women Health Care
 
-https://morning-ocean-31236.herokuapp.com/
-
 
 
 Making Community for Women Health Care
